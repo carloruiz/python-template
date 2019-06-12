@@ -3,13 +3,6 @@ Flask REST
 Postgres
 sqlalchemy 
 
-
-secret file format
-DB_PASSWORD=[]
-SECRET_KEY=[]
-AWS_SECRET_ACCESS_KEY=[]
-AWS_ACCESS_KEY_ID=[]
-
 RUN LOCALLY in dev mode
 With Docker
 docker build --build-arg CODECASH=`date +%s` -t csr2131/$APP .
